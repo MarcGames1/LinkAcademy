@@ -1,0 +1,32 @@
+input {
+    display: block;
+    margin: 0.2em 0 0.7em 0;
+}
+
+button{
+    display: block;
+    background-color: green;
+    border-style: none;
+    padding: 0.5em;
+    color: white;
+    border-radius: 0.5em;
+    width: 7em;
+
+}
+
+button:hover{
+    background-color: #0eb30e;
+}
+button:active{
+    background-color: rgb(2, 165, 2);
+}
+
+label{
+    font-family: sans-serif;
+    display: block;
+}
+
+select{
+    margin-bottom: 0.5em;
+    display: block;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+html{
+    scroll-behavior: smooth
+}
+body {
+  background-color: #faebd7;
+  font-family: 'Lato', sans-serif;
+}
+
+/*NAVIGATION*/
+nav , #nav{
+  display: inline-block;
+  width: 10%;
+  position: relative;
+  vertical-align: top;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+nav a ,#nav{
+  display: block;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.068);
+  color: black;
+  font-size: large;
+  line-height: 3rem;
+}
+/*NAVIGATION*/
+
+
+/* mouse over link */
+nav a:hover, #nav:hover {
+  background-color: rgb(253, 253, 253);
+}
+
+/* selected link */
+nav a:active, #nav:active {
+  background-color: rgba(224, 167, 62, 0.302);
+}
+
+/*cum fac daca vreau ca un link (a) din nav sa ramana colorat diferit in functie de pagina in care ma aflu este posibil doar din CSS sau e nevoie de JS?*/
+
+section {
+  display: inline-block;
+  padding: 2em;
+  width: 75%;
+  vertical-align: top;
+}
+
+h1 {
+  color: hsla(120, 100%, 50%, 0.753);
+  }
+p{
+  
+  text-indent: 3em;
+}
+
+.text{
+  max-width: 75%;
+  display: inline;
+  position: relative;
+  
+}
+
+#pupin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  padding: 2rem;
+  float: right;
+}
+
+#pupin-1916, #university{
+  padding: 1rem;
+  display: inline-block;
+  position:relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+/* table formatting */
+table {
+    background-color:rgba(0, 0, 0, 0.2);
+    position: relative;
+    align-self: center;
+    position: 50%;
+    border-collapse: collapse;
+    
+}
+tr, td, th {
+  border: solid 5px #e6e6e6;
+  padding: 1em;
+}
+
+.odd{
+    background-color: #FFE5CF;
+}
+
+thead{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* table formatting */

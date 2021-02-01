@@ -1,0 +1,98 @@
+/* CSS RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    padding: 1em;
+
+}
+
+header li{
+    display: inline;
+}
+
+a{
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+    margin-right: 1.5em;
+    transition-property: font-size;
+    transition-duration: 1s;
+    display: inline-block;
+    transition-duration: 1s;
+}
+
+a:hover {
+    transform: scale(1.2);
+    color: orange;
+}
+
+article{
+    background-color: rgb(210, 210, 210);
+    text-align: center;
+    padding-bottom: 6em;
+    
+}
+article div{
+    vertical-align: middle;
+}
+h1{
+    font-family: monospace;
+    padding: 1.5em;
+    animation-name: colorize;
+    animation-duration: 2s;
+}
+img{
+    height: 45vh;
+    transition-duration: 1s;
+}
+img:hover{
+    transform: rotate(20deg);
+}
+article div{
+    display: inline-block;
+}
+article ul{
+    list-style-type: none;
+}
+article ul li{
+    padding: 2em;
+}
+
+input[type="button"]{
+    background-color: orange;
+    border-radius: 0.5em;
+    border-style: none;
+    padding: 0.3em 1em;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(39, 39, 39);
+    text-align: center;
+    color: white;
+    text-transform: capitalize;
+    padding: 2em 0;
+}
+
+footer p {
+    margin-bottom: 2em;
+}
+
+@keyframes colorize{
+    from{
+        color:black;
+    }
+    to{
+        color:orangered;
+    }
+}
