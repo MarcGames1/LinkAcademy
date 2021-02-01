@@ -6,11 +6,15 @@
 
 html{
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav{
     background-color: #333333;
     height: 5vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
     
 
@@ -27,11 +31,13 @@ nav li{
 nav a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
     h1, h2 {
         text-align: center;
     }
 input[type=button]{
+    position: relative;
     float: right;
     margin:1em 4em;
     border-style: none;
@@ -42,21 +48,25 @@ input[type=button]{
     background-color: #278A59;
     color: white;
     cursor: pointer;
+    z-index: 2;
+    
 }
 
 section{
-
+height: 95vh;
 }
 .title{
-    background-color: #FF8058;
     height: 40vh;
     display: inline-block;
     width: 100%;
     text-align: center;
+}
+#products{
+    background-color: #FF8058;
+}
 
     
-}
-.h1wrapper{
+.title_effect{
     display: inline-block;
     background-color: #808080;
     height: 3.5rem;
@@ -71,5 +81,27 @@ section{
     bottom: 50%;
     transform: translate(1rem, -1rem);
     font-size: 3em;
-    color: white;
+    color: white; 
+}
+
+.content{
+    padding: 8em 2em;
+    display: block;
+    height: 50vh;
+}
+
+.content h2{
+    margin-bottom: 2em;
+}
+
+.content p {
+    text-align: justify;
+}
+
+#services{
+    background-color: #FFD637;
+}
+
+#contact{
+    background-color: #FEA42C;
 }
