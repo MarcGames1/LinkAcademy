@@ -18,7 +18,7 @@ function newBuble() {
   bubble.style.left = `${x}vw`;
   bubble.style.animationDelay = `${delay}ms`;
   bubble.style.borderColor = `rgb(${red}, ${green}, ${blue})`
-  bubble.style.boxShadow = `0.1em 0.1em 0.1em 0.1em 
+  bubble.style.boxShadow = `0.1em 0.1em 0.5em 0.1em 
   rgb(${red -shadowColor}, ${green -shadowColor}, ${blue -shadowColor}) inset`
   document.querySelector('body').appendChild(bubble);
 }
